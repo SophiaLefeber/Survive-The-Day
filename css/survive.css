@@ -1,0 +1,1071 @@
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before , *:after {
+    box-sizing: inherit;
+}
+
+
+/* Powell
+   font-family: "powell", sans-serif;
+   font-weight: 400;
+   font-style: normal; */
+
+a{
+   cursor: url(../images/hand.png), auto;
+}
+
+.instructexit{
+   height: 30px;
+}
+
+ul{
+   list-style-image:url("../images/Star.png");
+}
+
+li{
+   margin: 20px 0;
+}
+
+
+.back{
+   background-image: url("../images/Paper_background.jpg");
+   background-size:cover;
+   width: 100vw;
+   height: 100vh;
+}
+
+.help{
+   position: absolute;
+   top: 50px;
+   right: 50px;
+   height: 50px;
+   cursor: url(../images/hand.png), auto;
+}
+
+audio{
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   height: 40px;
+   cursor: url(../images/hand.png), auto; 
+}
+
+/* .badmusic{
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   height: 50px;
+   cursor: url(../images/hand.png), auto; 
+}
+
+.goodmusic{
+   position: absolute;
+   top: 50px;
+   left: 50px;
+   height: 50px;
+   cursor: url(../images/hand.png), auto; 
+} */
+
+.paper{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -55%);
+   width: 800px;
+   height: 570px;
+   overflow: hidden;
+   border-radius: 4%;
+}
+
+.time{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-250%, -180%);
+   width: 150px;
+   z-index: 400;
+}
+
+.exit{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(160%, -280%);
+   width: 150px;
+   z-index: 100;
+}
+
+.exit:hover{
+   animation: exit 2s infinite linear;
+}
+
+@keyframes exit{
+   0% {transform: translate(160%, -280%) rotate(0deg); }
+   25% {transform: translate(160%, -280%) rotate(-10deg);}
+   50% {transform: translate(160%, -280%) rotate(0deg);}
+   75% {transform: translate(160%, -280%) rotate(10deg);}
+   100% {transform: translate(160%, -280%) rotate(0deg);}
+}
+
+
+
+.purple{
+   border-radius: 4%;
+   border: #8079b5 dashed 5px;
+   width: 800px;
+   height: 570px;
+}
+
+
+.washipurp{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -330%);
+   width: 300px;
+}
+
+
+.green{
+   border-radius: 4%;
+   border: #7b9473 dashed 5px;
+   width: 800px;
+   height: 570px;
+}
+
+.washigrn1{
+   /* bottom */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(65%, 95%);
+   width: 300px;
+}
+
+.washigrn2{
+   /* top */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-165%, -205%);
+   width: 300px;
+}
+
+
+.pink{
+   border-radius: 4%;
+   border: #eeb6cd dashed 5px;
+   width: 800px;
+   height: 570px;
+}
+
+.washipnk{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -295%);
+   width: 300px;
+}
+
+
+.blue{
+   border-radius: 4%;
+   border: #8fafc9 dashed 5px;
+   width: 800px;
+   height: 570px;
+}
+
+.washiblu1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-380%, -105%);
+   height: 300px;
+}
+
+.washiblu2{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(340%, -10%);
+   height: 250px;
+}
+
+
+.orange{
+   border-radius: 4%;
+   border: #eaad96 dashed 5px;
+   width: 800px;
+   height: 570px;
+}
+
+.washiorg{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -240%);
+   width: 300px;
+}
+
+
+.yellow{
+   border-radius: 4%;
+   border: #f5d4a0 dashed 5px;
+   width: 800px;
+   height: 570px;
+}
+
+.washiylw1{
+   /* bottom */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-145%, 70%);
+   height: 200px;
+}
+
+.washiylw2{
+   /* top */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(45%, -205%);
+   height: 200px;
+}
+
+.two{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -55%);
+   width: 800px;
+   height: 570px;
+   overflow: hidden;
+}
+
+/* Progress Page */
+.Restart{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: "powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 50px;
+   color: #3d3163;
+   text-decoration: none;
+}
+
+
+/* Start Page */
+
+.Title{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -230%);
+   font-family: "powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 100px;
+   color: #3d3163;
+   white-space: nowrap;
+}
+
+.Wakeback{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 30%);
+   font-family: "powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 60px;
+   color: #f3f3e7;
+   white-space: nowrap;
+   -webkit-text-stroke: 25px #f3f3e7;
+}
+
+
+
+.Wakefront{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 30%);
+   font-family: "powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 60px;
+   color: #3d3163;
+   white-space: nowrap;
+   text-decoration: none;
+}
+
+
+
+
+/* phone */
+
+.phoneover{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   height: 480px;
+   width: 249px;
+   border-radius: 20%;
+   /* background-color: #3d3163; */
+   overflow: hidden;
+}
+
+.phone{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   height: 500px;
+}
+
+.power{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(90%, -390%);
+   width: 50px;
+   z-index: 21;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+.power:hover{
+   transform: translate(90%, -390%) scale(1.25);
+   transition: .5s;
+}
+
+.pfp1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-400%, -750%);
+   height: 25px;
+   width:25px;
+   border-radius: 50%;
+   z-index: 22;
+   overflow: hidden;
+}
+
+.pfp2{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-400%, 300%);
+   height: 25px;
+   width:25px;
+   border-radius: 50%;
+   z-index: 22;
+   overflow: hidden;
+}
+
+.pfp{
+   height: 25px;
+   width:25px;
+}
+
+.pfp1tag{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-70%, -1150%);
+   z-index: 22;
+   color: #f3f3e7;
+}
+
+.pfp2tag{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-95%, 500%);
+   z-index: 22;
+   color: #f3f3e7;
+}
+
+.post1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -75%);
+   height: 200px;
+   width:200px;
+   z-index: 22;
+   overflow: hidden;
+}
+
+.post2{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 57%);
+   height: 200px;
+   width:200px;
+   z-index: 22;
+   overflow: hidden;
+}
+
+.post{
+   width:200px;
+}
+
+
+/* Getting Ready */
+
+.counter{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-44%, -12%) rotate(-1.5deg);
+   width: 900px;
+   z-index: 1;
+   pointer-events: none;
+}
+
+.mirror{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-42%, -62%);
+   width: 300px;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+.mirror:hover{
+   transform: translate(-42%, -62%) scale(1.15);
+   transition: .5s;
+}
+
+
+.foundation{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-380%, 95%);
+   width: 80px;
+   z-index: 2;
+}
+
+.mascara{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-440%, 110%) rotate(-20deg);
+   width: 80px;
+   z-index: 2;
+}
+
+.lip{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-510%, 130%) rotate(5deg);
+   width: 40px;
+   z-index: 2;
+}
+
+.blender{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-480%, 330%);
+   width: 50px;
+   z-index: 2;
+}
+
+.phonesm{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(170%, 110%) rotate(90deg);
+   width: 60px;
+   z-index: 3;
+}
+
+.inphonesm{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(61%, 302%);
+   /* width: 119px;
+   height: 55px; */
+   border-radius: 7%;
+   z-index: 10;
+}
+
+
+/* car */
+.car{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -44%);
+   width: 900px;
+}
+
+.clouds{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -70%);
+   width: 800px;
+}
+
+.wheel{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-80%, 95%);
+   width: 480px; 
+   transition: .5s;
+   cursor: url(../images/hand.png), auto;
+}
+
+.wheel:hover{
+   transform: translate(-80%, 95%) scale(1.25);
+   transition: .5s;
+}
+
+.carmirror{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(51%, -220%);
+   height: 75px;
+   width: 300px;
+   background: linear-gradient(135deg, #abc7db, #f2faff 50%, #7a858c);
+   border-radius: 33% 10%;
+}
+
+/* WGS */
+
+.boardWGS{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-55%, -55%) rotate(-1deg);  
+   width: 850px;
+}
+
+.deskWGS{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-65%, 3%) scale(-1,1);  
+   width: 650px;
+   z-index: 2;
+}
+
+.doorWGS{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(65%, -45%) scale(-1,1);
+   height: 450px;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+.doorWGS:hover{
+   transform: translate(65%, -45%) scale(-1.25,1.25);
+   transition: .5s;
+}
+
+.notebook{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-120%, -5%) rotate(-15deg);
+   width: 250px;
+   z-index: 3;
+}
+
+.pencil{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-40%, 30%) rotate(-15deg);
+   width: 150px;
+   z-index: 3;
+}
+   
+
+/* LunchHW */
+
+.lunchtable{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-65%, -25%);
+   width: 650px;
+}
+
+.food{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-65%, -25%);
+   width: 300px;
+}
+
+.laptopcl{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-185%, 10%) rotate(10deg);
+   width: 200px;
+}
+
+/* Interactive Design Start */
+
+.Dan{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(70%, -30%) scale(-1,1);
+   width: 230px;
+   z-index: 2;
+}
+
+.Desk-int{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-80%, -25%);
+   width: 500px;
+   z-index: 2;
+}
+
+.Board-int{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-30%, -80%) scale(-1,1);
+   width: 470px;  
+   z-index: 1;
+}
+
+.laptopop{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-180%, 10%);
+   width: 200px;
+   z-index: 3;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+.laptopop:hover{
+   transform: translate(-180%, 10%) scale(1.25);
+   transition: .5s;
+}
+
+.notebook-int{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-110%, 90%) scale(-1,1) rotate(-15deg);
+   width: 120px;
+   z-index: 3;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+.notebook-int:hover{
+   transform: translate(-110%, 90%) scale(-1.25, 1.25) rotate(-15deg);
+   transition: .5s;
+}
+
+/* Distracted */
+
+.Desk-dis{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-45%, -42%);
+   width: 1000px;
+
+}
+
+.Pinterest{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-45%, -45%);
+   width: 700px;
+   z-index: 1;
+}
+
+.X{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(800%, -540%);
+   color: #eaad96;
+   font-family: "powell", sans-serif;
+   font-weight: 800;
+   font-style: normal;
+   font-size: 30px;
+   z-index: 2;
+   transition: .5s;
+   cursor: url(../images/hand.png), auto;
+}
+
+.X:hover{
+   transform: translate(800%, -540%) scale(1.5);
+   transition: .5s;
+}
+
+
+/* Interactive Later */
+
+.keysint{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-40%, 150%);
+   width: 70px;
+   z-index: 3;
+   transition: .5s;
+   cursor: url(../images/hand.png), auto;
+}
+
+.keysint:hover{
+   transform: translate(-40%, 150%) scale(1.25);
+   transition: .5s;
+}
+
+.notebook-int2{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-110%, 90%) scale(-1,1) rotate(-15deg);
+   width: 120px;
+   z-index: 3;
+}
+
+.laptopop2{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-180%, 10%);
+   width: 200px;
+   z-index: 3;
+}
+
+.Dan2{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(70%, -30%) scale(-1,1);
+   width: 230px;
+   z-index: 2;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+.Dan2:hover{
+   transform: translate(70%, -30%) scale(-1.1,1.1);
+   transition: .5s;
+}
+
+/* Dinner */
+
+.kitchentable{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+   width: 800px;
+}
+
+.momdad{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-75%, -64%); 
+   width: 535px;
+   transition: .5s;
+   cursor: url(../images/hand.png), auto;
+}
+
+.momdad:hover{
+   transform: translate(-75%, -64%) scale(1.1);
+   transition: .5s;
+}
+
+.tablephone{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(300%, 150%); 
+   width: 50px;
+   transition: .5s;
+   cursor: url(../images/hand.png), auto;
+}
+
+.tablephone:hover{
+   transform: translate(300%, 150%) scale(1.25) ;
+   transition: .5s;
+}
+
+.notebook-dinner{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(180%, 120%) rotate(10deg) scale(-1,1); 
+   width: 120px;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+.notebook-dinner:hover{
+   transform: translate(180%, 120%) rotate(10deg) scale(-1.25,1.25);
+   transition: .5s;
+}
+
+/* ceramics */
+.certable{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-20%, -20%); 
+   width: 500px;
+   z-index: 1;
+}
+
+.tools{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(150%, -5%) scale(-1,1) rotate(10deg); 
+   width: 170px;
+   z-index: 2;
+}
+
+.cerwheel{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(35%, 55%); 
+   width: 130px;
+   z-index: 2;
+}
+
+.cat{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(160%, -30%); 
+   height: 150px;
+   z-index: 2;
+}
+
+.ceramickey{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-35%, 75%); 
+   width: 100px;
+   z-index: 2;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+
+.ceramickey:hover{
+   transform: translate(-35%, 75%) scale(1.25);
+   transition: .5s;
+}
+
+.LMB{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-80%, -30%); 
+   width: 550px;
+}
+
+/* bedroom */
+
+.bed{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-85%, -15%); 
+   width: 450px;
+   z-index: 2;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+.bed:hover{
+   transform: translate(-85%, -15%) scale(1.1);
+   transition: .5s;
+}
+
+.tv{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(20%, -30%) scale(-1,1); 
+   width: 320px;
+   z-index: 1;
+   cursor: url(../images/hand.png), auto;
+   transition: .5s;
+}
+
+.tv:hover{
+   transform: translate(20%, -30%) scale(-1.1, 1.1);
+   transition: .5s;
+}
+
+.rug{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 100%) scale(-1,1); 
+   width: 550px;
+}
+
+.paint{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-180%, -220%); 
+   width: 120px;
+}
+
+.clawdeen{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -110%); 
+   width: 150px;
+}
+
+.dnp{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(130%, -165%); 
+   height: 150px;
+}
+
+/* endings */
+
+.torn{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -45%); 
+   height: 370px;
+}
+
+.GoodFront{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -350%);
+   font-family: "Powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 65px;
+   color: #7b9473;
+   white-space: nowrap;
+}
+
+.BadFront{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -350%);
+   font-family: "Powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 65px;
+   color: #eeb6cd;
+   white-space: nowrap;
+}
+
+.NeutralFront{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -350%);
+   font-family: "Powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 65px;
+   color: #f5d4a0;
+   white-space: nowrap;
+}
+
+.EndingBack{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -350%);
+   font-family: "Powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 65px;
+   color: #f3f3e7;
+   white-space: nowrap;
+   -webkit-text-stroke:30px #f3f3e7;
+}
+
+.message{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -56%);
+   font-family: "Powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 27px;
+   color: #3d3163;
+   line-height: 52px;
+}
+
+.Restartfront{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 300%);
+   font-family: "powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 50px;
+   color: #3d3163;
+   white-space: nowrap;
+   text-decoration: none;
+}
+
+.Restartback{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, 300%);
+   font-family: "powell", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 50px;
+   color: #f3f3e7;
+   white-space: nowrap;
+   text-decoration: none;
+   -webkit-text-stroke: 25px #f3f3e7;
+}
